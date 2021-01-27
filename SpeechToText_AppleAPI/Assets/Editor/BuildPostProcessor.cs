@@ -17,8 +17,8 @@ namespace Veyond
 				PBXProject project = new PBXProject();
 				project.ReadFromString(File.ReadAllText(projectPath));
 				//string targetName = PBXProject.GetUnityTargetName(); // note, not "project." ...
-				string targetName = project.GetUnityMainTargetGuid();
-				string targetGUID = project.TargetGuidByName(targetName);
+				//string targetGUID = project.TargetGuidByName(targetName);
+				string targetGUID = project.GetUnityMainTargetGuid();
 
 				AddFrameworks(project, targetGUID);
 
