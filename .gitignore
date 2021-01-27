@@ -1,3 +1,8 @@
+SpeechToText_AppleAPI/.vs
+SpeechToText_AppleAPI/Library
+SpeechToText_AppleAPI/Temp
+SpeechToText_AppleAPI/obj
+
 SpeechToText_AppleAPI/Xcode
 SpeechToText_AppleAPI/Assembly-CSharp.csproj
 SpeechToText_AppleAPI/SpeechToText_AppleAPI.csproj
