@@ -36,7 +36,7 @@ namespace Veyond
 			//project.AddFrameworkToProject(targetGUID, "SystemConfiguration.framework", false);
 			//project.AddFrameworkToProject(targetGUID, "libz.dylib", false);
 			//project.AddFrameworkToProject(targetGUID, "libsqlite3.tbd", false);
-			project.AddFrameworkToProject(targetGUID, "speech.farmwork", false);
+			project.AddFrameworkToProject(targetGUID, "Speech.framework", false);
 			project.AddFrameworkToProject(targetGUID, "AVFoundation.framework", false);
 
 			// Add `-ObjC` to "Other Linker Flags".
